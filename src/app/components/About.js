@@ -6,7 +6,7 @@ const About = () => {
     return (
       <section id="about" className="py-16">
         <div className="container mx-auto text-center bg-black mt-28 ">
-        <h2 className="text-3xl font-bold flex justify-center mb-4">About</h2>
+        <h2 className="text-3xl font-bold text-white flex justify-center mb-4">About</h2>
           <div className="flex sm:flex-row-reverse flex-col">
             <div className=' p-6 ml-2 mt-4 sm:mt-10 shadow-lg rounded-lg'>
                     <Image width={500} height={100} src="/about/heroImage.jpg" className="rounded-full" />

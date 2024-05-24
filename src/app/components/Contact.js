@@ -35,8 +35,8 @@ const Contact = () => {
 
     return (
       <section id="contact" className="py-16 ">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
+        <div className="container mx-auto text-center px-4">
+          <h2 className="text-3xl font-bold text-white mb-4">Contact Me</h2>
           <form className="max-w-lg mx-auto" onSubmit={handleSubmit}>
             <div className="mb-4">
               <input
@@ -46,7 +46,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 placeholder="Your Name"
-                className="w-full p-2 border border-gray-300 rounded-md w-11/12 text-gray-800 font-bold"
+                className="w-full p-2 border border-gray-300 rounded-md text-gray-800 font-bold"
               />
             </div>
             <div className="mb-4">
@@ -57,7 +57,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full p-2 border border-gray-300 rounded-md w-11/12 text-gray-800 font-bold"
+                className="w-full p-2 border border-gray-300 rounded-md text-gray-800 font-bold"
               />
             </div>
             <div className="mb-4">
@@ -67,7 +67,7 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
-                className="w-full p-2 border border-gray-300 rounded-md w-11/12 text-gray-800 font-bold"
+                className="w-full p-2 border border-gray-300 rounded-md text-gray-800 font-bold"
                 rows="4"
               ></textarea>
             </div>
